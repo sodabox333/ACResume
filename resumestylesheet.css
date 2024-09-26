@@ -1,0 +1,132 @@
+/* CSS file*/
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+   
+
+    body{ background-color: cornflowerblue; 
+    	font-size: 16px;
+		max-width: 800px;
+}
+h1{
+	font-family:"Playwrite DE Grund", arial, sans-serif; }
+
+p, h6{font-family: Figtree, sans-serif}
+
+h6{ color: slateblue; }
+
+.page {background-color: cornflowerblue;}
+
+.header{ 
+	text-align: center;
+	background-color: papayawhip;
+	padding: 5px;
+	margin: 10px}
+
+
+.text{ 
+	font-family: Figtree, sans-serif;
+	margin:10px; 
+	padding-top: 5px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	padding-left: 12px;}
+
+.subheads { text-align: center; }
+
+.experience
+	{background-color: floralwhite;
+	 
+	}
+
+.skills
+	{background-color: papayawhip;}
+
+.education {
+	 background-color: floralwhite; }
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+	body{ background: cornflowerblue; 
+		}
+	h1{
+	font-family:"Playwrite DE Grund", arial, sans-serif; 
+		}
+
+	p, h6{font-family: Figtree, sans-serif
+			}
+
+	h6{ color: slateblue; }
+
+.page {background-color: cornflowerblue;}
+
+.header{ 
+	margin:auto;
+	max-width: 1000px;
+	background-color: papayawhip;
+	}
+
+.text{  
+	margin:auto;
+	max-width: 1000px;
+	font-family: Figtree, sans-serif;
+}
+
+.subheads { text-align: center; }
+
+.experience
+	{
+	background-color: floralwhite;
+	margin:auto;
+	max-width: 1000px;
+	}
+
+.skills
+	{background-color: papayawhip; 
+	margin: auto;
+	max-width: 1000px;}
+
+.education {
+	background-color: floralwhite; 
+	margin:auto;
+	max-width: 1000px;}
+
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) 
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+
+
+
+
+
