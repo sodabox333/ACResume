@@ -15,13 +15,13 @@ You will find this is far easier than the opposite task of using CSS to cram you
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
 *********************************************************************/
-@media only screen and (max-width:640px)
+@media only screen and (max-width:680px)  {
 * {
     box-sizing: border-box;
     
 }
 
-html, body {
+html, body {}
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
    
 
@@ -67,6 +67,7 @@ h6{ color: slateblue; }
 	 background-color: floralwhite; }
 }
 
+
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
@@ -88,37 +89,46 @@ h6{ color: slateblue; }
 .page {background-color: cornflowerblue;}
 
 .header{ 
-	margin:auto;
+	text-align: center;
+	background-color: papayawhip;
+	margin: 20px auto;
+	margin-top: 10px;
 	max-width: 1000px;
 	background-color: papayawhip;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	
 	}
 
 .text{  
-	margin:auto;
+	margin: 20px auto;
 	max-width: 1000px;
 	font-family: Figtree, sans-serif;
-}
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+	}
 
 .subheads { text-align: center; }
 
 .experience
 	{
 	background-color: floralwhite;
-	margin:auto;
-	max-width: 1000px;
-	}
+	max-width: 1000px;	}
 
 .skills
 	{background-color: papayawhip; 
-	margin: auto;
 	max-width: 1000px;}
 
-.education {
+.education 
+	{
 	background-color: floralwhite; 
-	margin:auto;
 	max-width: 1000px;}
 
-}
+	}
 
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
