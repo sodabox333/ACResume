@@ -15,6 +15,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
 *********************************************************************/
+@media only screen and (max-width:640px)
 * {
     box-sizing: border-box;
     
